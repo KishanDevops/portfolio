@@ -14,7 +14,7 @@ export default function Hero() {
           </h1>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-tight text-indigo-500">
-            Manish Solanki
+            Kishan Lokhil
           </h1>
 
           <p className="mt-4 text-gray-600 dark:text-gray-300 text-base sm:text-lg font-bold">
@@ -22,7 +22,7 @@ export default function Hero() {
           </p>
 
           <p className="mt-2 text-gray-600 dark:text-gray-300 font-bold">
-            Full-stack Developer • MERN Stack • Open Source Contributor
+            DevOps Engineer • MERN Stack • Open Source Contributor
           </p>
 
           <div className="mt-8 flex justify-center md:justify-start">

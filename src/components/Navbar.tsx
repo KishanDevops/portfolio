@@ -27,7 +27,7 @@ export default function Navbar() {
             <Link href="/" aria-label="Go to Home">
               <Image
                 src="/favicon.png"
-                alt="SM Logo"
+                alt="kL Logo"
                 width={40}
                 height={40}
                 className="rounded-full cursor-pointer hover:scale-110 transition-transform"

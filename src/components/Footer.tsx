@@ -6,12 +6,12 @@ export default function Footer() {
     <footer className="fixed bottom-0 inset-x-0 bg-white/90 dark:bg-black/90 text-gray-700 dark:text-gray-300 backdrop-blur border-t border-gray-200 dark:border-gray-800">
       <div className="max-w-7xl mx-auto px-6 py-3 flex flex-col sm:flex-row items-center justify-between gap-3 overflow-x-hidden">
         <p className="text-sm text-center sm:text-left">
-          &copy; 2025 Manish. All rights reserved.
+          &copy; 2025 Kishan. All rights reserved.
         </p>
 
         <div className="flex gap-3">
           <Link
-            href="https://github.com/SolankiManish005"
+            href="https://github.com/KishanDevops"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -21,7 +21,7 @@ export default function Footer() {
           </Link>
 
           <Link
-            href="https://www.linkedin.com/in/manish-solanki-b787b1357/"
+            href="https://www.linkedin.com/in/kishan-lokhil/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
