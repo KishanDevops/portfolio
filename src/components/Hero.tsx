@@ -39,7 +39,7 @@ export default function Hero() {
 
         <div className="flex justify-center md:justify-end">
           <Image
-            src="/profile.jpg"
+            src="/profile1.jpg"
             alt="Profile"
             width={280}
             height={280}
