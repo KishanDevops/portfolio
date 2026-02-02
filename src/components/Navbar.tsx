@@ -26,10 +26,10 @@ export default function Navbar() {
           <div className="flex items-center gap-2 w-1/4">
             <Link href="/" aria-label="Go to Home">
               <Image
-                src="/favicon.png"
-                alt="SM Logo"
-                width={40}
-                height={40}
+                src="/favicon1.png"
+                alt="kL Logo"
+                width={50}
+                height={50}
                 className="rounded-full cursor-pointer hover:scale-110 transition-transform"
               />
             </Link>

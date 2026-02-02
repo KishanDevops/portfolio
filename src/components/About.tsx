@@ -9,20 +9,20 @@ const About = () => {
         <section className="py-10">
           <h1 className="font-bold mb-6 md:text-5xl text-4xl">About Me</h1>
           <p className="text-gray-700 dark:text-gray-300 text-lg font-medium">
-            I’m a MERN Stack Developer who enjoys building beautiful and
-            performant web apps.
+            I’m a DevOps Engineer who enjoys building reliable, scalable, and
+            secure infrastructure for modern applications.
           </p>
           <br />
           <p className="text-gray-700 dark:text-gray-300 text-lg font-medium">
-            With expertise in modern JavaScript frameworks and libraries, I
-            build responsive interfaces that provide excellent user experiences
-            across all devices.
+            With expertise in cloud platforms, CI/CD pipelines, and automation
+            tools, I help teams deliver software faster and more efficiently
+            across environments.
           </p>
           <br />
           <p className="text-gray-700 dark:text-gray-300 text-lg font-medium">
-            When I&apos;m not coding, you can find me exploring new
-            technologies, contributing to open-source projects, or enjoying
-            outdoor activities.
+            When I&apos;m not optimizing systems, you can find me learning new
+            DevOps technologies, contributing to open-source projects, or
+            enjoying outdoor activities.
           </p>
         </section>
         <Experience />

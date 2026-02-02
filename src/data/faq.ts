@@ -1,27 +1,27 @@
 export const faqs = [
   {
-    question: "What industries have you worked with?",
+    question: "What DevOps services do you specialize in?",
     answer:
-      "I've worked with startups, SaaS companies, e-commerce businesses, and enterprise applications, building robust and scalable solutions tailored to different industry needs.",
+      "I specialize in CI/CD pipeline automation, cloud infrastructure management, containerization, monitoring, and system reliability to help teams deploy faster and scale efficiently.",
   },
   {
-    question: "How do you stay updated with new technologies?",
+    question: "Which tools and technologies do you work with?",
     answer:
-      "I continuously upskill by reading industry blogs, contributing to open-source projects, and exploring new frameworks to ensure I provide the best solutions.",
+      "I work with tools like Docker, Kubernetes, GitHub Actions, Jenkins, Terraform, AWS, Linux, and monitoring solutions to build secure and automated DevOps workflows.",
   },
   {
-    question: "How do you collaborate with clients and teams?",
+    question: "How do you improve deployment speed and reliability?",
     answer:
-      "I believe in clear, open communication using tools like Slack, Notion, and Zoom. Regular updates, agile development, and transparent workflows ensure smooth collaboration.",
+      "I implement automated CI/CD pipelines, infrastructure as code, and monitoring strategies that reduce manual effort, minimize errors, and ensure reliable deployments.",
   },
   {
-    question: "How do you ensure high-quality code?",
+    question: "How do you handle system monitoring and incidents?",
     answer:
-      "I follow industry best practices, including test-driven development (TDD), thorough code reviews, and CI/CD automation. This ensures clean, maintainable, and scalable code for every project.",
+      "I use logging and monitoring tools to proactively track system health, set up alerts, and respond quickly to incidents to maintain high availability and performance.",
   },
   {
-    question: "Do you provide post-launch support?",
+    question: "Do you offer ongoing DevOps support and optimization?",
     answer:
-      "Yes, I offer maintenance and support packages, including updates, bug fixes, and feature enhancements to ensure your application remains up-to-date and secure.",
+      "Yes, I provide continuous support including infrastructure optimization, security updates, performance tuning, and scaling strategies to keep systems production-ready.",
   },
 ];
