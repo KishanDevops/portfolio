@@ -11,10 +11,10 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Contact Me | Manish Solanki – MERN Developer",
-  metadataBase: new URL("https://solankimanish.dev/"),
+  title: "Contact Me | Kishan Lokhil – DevOps Engineer",
+  metadataBase: new URL("https://lokhilkishan.dev/"),
   description:
-    "Contact Manish Solanki, MERN Stack Developer from India, for freelance work, projects, and collaborations.",
+    "Contact Kishan Lokhil, DevOps Engineer from India, for cloud infrastructure, CI/CD automation, and DevOps consulting projects.",
   icons: {
     icon: [
       { url: "/favicon2.ico", sizes: "any" },
@@ -23,24 +23,27 @@ export const metadata: Metadata = {
     shortcut: "/favicon2.ico",
   },
   keywords: [
-    "Manish Solanki",
-    "MERN Developer",
-    "React Developer",
-    "Next.js Developer",
-    "Freelance Web Developer India",
-    "Contact MERN Developer",
+    "Kishan Lokhil",
+    "DevOps Engineer",
+    "AWS DevOps Engineer",
+    "Cloud Engineer",
+    "CI/CD Automation",
+    "Docker Kubernetes Engineer",
+    "Freelance DevOps Engineer India",
+    "Contact DevOps Engineer",
   ],
   openGraph: {
-    title: "Contact Me | Manish Solanki",
-    description: "Get in touch for MERN stack projects and collaborations.",
-    url: "https://solankimanish.dev/",
-    siteName: "Manish Solanki Portfolio",
+    title: "Contact Me | Kishan Lokhil – DevOps Engineer",
+    description:
+      "Get in touch for DevOps, cloud infrastructure, CI/CD pipelines, and automation projects.",
+    url: "https://lokhilkishan.dev/",
+    siteName: "Kishan Lokhil DevOps Portfolio",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Manish Solanki Portfolio",
+        alt: "Kishan Lokhil DevOps Portfolio",
       },
     ],
     type: "website",

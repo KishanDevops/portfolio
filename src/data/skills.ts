@@ -11,11 +11,39 @@ type SkillGroup = {
 
 export const skillGroups: SkillGroup[] = [
   {
+    title: "Core Stack",
+    skills: [
+      {
+        name: "JavaScript",
+        icon: "/javascript.svg",
+        href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      },
+      {
+        name: "TypeScript",
+        icon: "/typescript.svg",
+        href: "https://www.typescriptlang.org/",
+      },
+      { name: "React", icon: "/react.svg", href: "https://react.dev/" },
+      { name: "Next.js", icon: "/nextjs1.svg", href: "https://nextjs.org/" },
+      { name: "Node.js", icon: "/nodejs.svg", href: "https://nodejs.org/en" },
+      {
+        name: "Express.js",
+        icon: "/expressjs.svg",
+        href: "https://expressjs.com/",
+      },
+      { name: "GraphQL", icon: "/graphql.svg", href: "https://graphql.org/" },
+    ],
+  },
+  {
     title: "DevOps",
     skills: [
       { name: "Linux", icon: "/linux.svg", href: "https://www.linux.org/" },
       { name: "Docker", icon: "/docker.svg", href: "https://www.docker.com/" },
+      { name: "Kubernetes", icon: "/kubernetes.svg", href: "https://kubernetes.io/" },
+      { name: "Terraform", icon: "/terraform.svg", href: "https://developer.hashicorp.com/terraform" },
       { name: "Jenkins", icon: "/jenkins.svg", href: "https://www.jenkins.io/" },
+      { name: "Ansible", icon: "/ansible.svg", href: "https://docs.ansible.com/projects/ansible/latest/index.html" },
+      { name: "Grafana", icon: "/Grafana.svg", href: "https://grafana.com/" },
       {
         name: "Mongoose",
         icon: "/mongoose.svg",

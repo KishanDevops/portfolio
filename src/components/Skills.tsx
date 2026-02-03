@@ -1,33 +1,22 @@
 "use client";
 import Image from "next/image";
-import { ExternalLink } from "lucide-react";
-import {
-  Users,
-  MessageCircle,
-  Puzzle,
-  Clock,
-  Handshake,
-  Shuffle,
-  Target,
-  FileText,
-  Rocket,
-  Layers,
-} from "lucide-react";
+import { Activity, AlertTriangle, Bell, Box, Cloud, ExternalLink, GitBranch, Grid, Settings, Shield, Layers } from "lucide-react";
 import { skillGroups } from "@/data/skills";
 import Link from "next/link";
 
 const skills = [
-  { title: "Team Leadership & Mentorship", icon: Users },
-  { title: "Client Communication", icon: MessageCircle },
-  { title: "Problem Solving", icon: Puzzle },
-  { title: "Time Management & Prioritization", icon: Clock },
-  { title: "Collaboration", icon: Handshake },
-  { title: "Adaptability", icon: Shuffle },
-  { title: "Ownership & Accountability", icon: Target },
-  { title: "Documentation & KT", icon: FileText },
-  { title: "DevOps Collaboration", icon: Rocket },
-  { title: "MVC Architecture Mastery", icon: Layers },
+  { title: "CI/CD Pipeline Design & Automation", icon: GitBranch },
+  { title: "Infrastructure as Code (Terraform / CloudFormation)", icon: Layers },
+  { title: "Cloud Platforms (AWS / Azure / GCP)", icon: Cloud },
+  { title: "Containerization (Docker)", icon: Box },
+  { title: "Container Orchestration (Kubernetes)", icon: Grid },
+  { title: "Monitoring & Observability", icon: Activity },
+  { title: "Logging & Alerting", icon: Bell },
+  { title: "Security & Compliance (DevSecOps)", icon: Shield },
+  { title: "Configuration Management", icon: Settings },
+  { title: "Incident Response & Root Cause Analysis", icon: AlertTriangle },
 ];
+
 
 export default function Skills() {
   return (
