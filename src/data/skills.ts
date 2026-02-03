@@ -39,10 +39,26 @@ export const skillGroups: SkillGroup[] = [
     skills: [
       { name: "Linux", icon: "/linux.svg", href: "https://www.linux.org/" },
       { name: "Docker", icon: "/docker.svg", href: "https://www.docker.com/" },
-      { name: "Kubernetes", icon: "/kubernetes.svg", href: "https://kubernetes.io/" },
-      { name: "Terraform", icon: "/terraform.svg", href: "https://developer.hashicorp.com/terraform" },
-      { name: "Jenkins", icon: "/jenkins.svg", href: "https://www.jenkins.io/" },
-      { name: "Ansible", icon: "/ansible.svg", href: "https://docs.ansible.com/projects/ansible/latest/index.html" },
+      {
+        name: "Kubernetes",
+        icon: "/kubernetes.svg",
+        href: "https://kubernetes.io/",
+      },
+      {
+        name: "Terraform",
+        icon: "/terraform.svg",
+        href: "https://developer.hashicorp.com/terraform",
+      },
+      {
+        name: "Jenkins",
+        icon: "/jenkins.svg",
+        href: "https://www.jenkins.io/",
+      },
+      {
+        name: "Ansible",
+        icon: "/ansible.svg",
+        href: "https://docs.ansible.com/projects/ansible/latest/index.html",
+      },
       { name: "Grafana", icon: "/Grafana.svg", href: "https://grafana.com/" },
       {
         name: "Mongoose",
@@ -77,8 +93,12 @@ export const skillGroups: SkillGroup[] = [
     skills: [
       { name: "AWS", icon: "/aws.svg", href: "https://aws.amazon.com/" },
       { name: "GCP", icon: "/gcp.svg", href: "https://cloud.google.com/" },
-      { name: "Azure", icon: "/azure.svg", href: "https://azure.microsoft.com/" },
+      {
+        name: "Azure",
+        icon: "/azure.svg",
+        href: "https://azure.microsoft.com/",
+      },
       { name: "Vercel", icon: "/favicon.ico", href: "https://vercel.com/" },
-    ]
-  }
+    ],
+  },
 ];

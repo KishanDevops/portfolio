@@ -1,12 +1,27 @@
 "use client";
 import Image from "next/image";
-import { Activity, AlertTriangle, Bell, Box, Cloud, ExternalLink, GitBranch, Grid, Settings, Shield, Layers } from "lucide-react";
+import {
+  Activity,
+  AlertTriangle,
+  Bell,
+  Box,
+  Cloud,
+  ExternalLink,
+  GitBranch,
+  Grid,
+  Settings,
+  Shield,
+  Layers,
+} from "lucide-react";
 import { skillGroups } from "@/data/skills";
 import Link from "next/link";
 
 const skills = [
   { title: "CI/CD Pipeline Design & Automation", icon: GitBranch },
-  { title: "Infrastructure as Code (Terraform / CloudFormation)", icon: Layers },
+  {
+    title: "Infrastructure as Code (Terraform / CloudFormation)",
+    icon: Layers,
+  },
   { title: "Cloud Platforms (AWS / Azure / GCP)", icon: Cloud },
   { title: "Containerization (Docker)", icon: Box },
   { title: "Container Orchestration (Kubernetes)", icon: Grid },
@@ -16,7 +31,6 @@ const skills = [
   { title: "Configuration Management", icon: Settings },
   { title: "Incident Response & Root Cause Analysis", icon: AlertTriangle },
 ];
-
 
 export default function Skills() {
   return (
