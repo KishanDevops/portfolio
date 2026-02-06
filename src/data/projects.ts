@@ -8,6 +8,53 @@ type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Django Deployment Automation Script",
+    description:
+      "An automated deployment solution for a Django Notes application using Docker, Docker Compose, and Nginx. The Bash script streamlines repository cloning, dependency installation, service configuration, and containerized deployment with built-in error handling, logging, and fallback mechanisms to ensure reliable, production-ready deployments.",
+    tech: [
+      "Django",
+      "Docker",
+      "Docker Compose",
+      "Nginx",
+      "AWS EC2",
+      "GitHub",
+      "Bash",
+    ],
+    role: "DevOps Engineer",
+    link: "#",
+  },
+  {
+    title: "Node.js Todo App – CI/CD with Jenkins",
+    description:
+      "A Node.js Todo application with a fully automated CI/CD pipeline implemented using Jenkins. The pipeline handles code cloning, testing, Docker image build, push to Docker Hub, and deployment using Docker Compose, enabling reliable and scalable continuous delivery.",
+    tech: [
+      "Node.js",
+      "Docker",
+      "Docker Compose",
+      "Jenkins",
+      "GitHub",
+      "Docker Hub",
+    ],
+    role: "DevOps Engineer",
+    link: "#",
+  },
+  {
+    title: "Django Deployment Automation Script",
+    description:
+      "A full-stack demo application built with React and Django to demonstrate containerized development and deployment using Docker and Docker Compose. The project showcases consistent environment setup, automated dependency management, and seamless integration between frontend and backend services.",
+    tech: [
+      "React",
+      "Django",
+      "Python 3.9",
+      "SQLite",
+      "Docker",
+      "Docker Compose",
+      "GitHub",
+    ],
+    role: "DevOps Engineer",
+    link: "#",
+  },
+  {
     title: "MedTrack – Healthcare CRM & Delivery System",
     description:
       "A full-stack platform integrating CRM, pharmacy management, and logistics for hospitals and patients with real-time delivery and payment flow.",

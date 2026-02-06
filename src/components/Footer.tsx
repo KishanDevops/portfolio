@@ -31,7 +31,7 @@ export default function Footer() {
           </Link>
 
           <Link
-            href="https://www.instagram.com/_manish_solanki_512/"
+            href="https://www.instagram.com/kishan.lokhil37/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
