@@ -34,6 +34,6 @@ const ContactSchema: Schema<IContact> = new Schema(
 );
 
 const Contact: Model<IContact> =
-  mongoose.models.Contact || mongoose.model<IContact>("Contact", ContactSchema);
+  mongoose.models.Contact || mongoose.model<IContact>("KishanContact", ContactSchema);
 
 export default Contact;
