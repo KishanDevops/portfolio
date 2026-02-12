@@ -7,9 +7,10 @@ export interface IContact extends Document {
   message: string;
   createdAt: Date;
   updatedAt: Date;
+  deletedAt: Date;
 }
 
-const ContactSchema: Schema<IContact> = new Schema(
+const KishanContactSchema: Schema<IContact> = new Schema(
   {
     name: {
       type: String,
@@ -27,13 +28,18 @@ const ContactSchema: Schema<IContact> = new Schema(
       type: String,
       required: true,
     },
+    deletedAt: {
+      type: Date,
+      default: null,
+    },
   },
   {
     timestamps: true,
   },
 );
 
-const Contact: Model<IContact> =
-  mongoose.models.Contact || mongoose.model<IContact>("KishanContact", ContactSchema);
+const KishanContact: Model<IContact> =
+  mongoose.models.KishanContact ||
+  mongoose.model<IContact>("KishanContact", KishanContactSchema);
 
-export default Contact;
+export default KishanContact;
