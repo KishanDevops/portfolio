@@ -6,11 +6,11 @@ export interface IContact extends Document {
   subject: string;
   message: string;
   createdAt: Date;
-  updatedAt: Date;
   deletedAt: Date;
+  updatedAt: Date;
 }
 
-const KishanContactSchema: Schema<IContact> = new Schema(
+const ContactSchema: Schema<IContact> = new Schema(
   {
     name: {
       type: String,
@@ -38,8 +38,7 @@ const KishanContactSchema: Schema<IContact> = new Schema(
   },
 );
 
-const KishanContact: Model<IContact> =
-  mongoose.models.KishanContact ||
-  mongoose.model<IContact>("KishanContact", KishanContactSchema);
+const Contact: Model<IContact> =
+  mongoose.models.Contact || mongoose.model<IContact>("Contact", ContactSchema);
 
-export default KishanContact;
+export default Contact;
