@@ -189,7 +189,7 @@ function syncNow() {
 // ⬇️ CHANGE THESE 3 VALUES ⬇️
 
 const WEBHOOK_URL = "https://your-domain.com/api/webhook/sync-to-sheets";
-// Example: https://manish-solanki.vercel.app/api/webhook/sync-to-sheets
+// Example: https://kishan-lokhil.vercel.app/api/webhook/sync-to-sheets
 // Local testing: http://localhost:3000/api/webhook/sync-to-sheets
 
 const WEBHOOK_KEY = "your_webhook_secret_here";

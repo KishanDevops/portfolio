@@ -22,10 +22,10 @@ export function getPortfolioContext() {
   const faqList = faqs.map((item) => `- Q: ${item.question} A: ${item.answer}`);
 
   return [
-    "Portfolio owner: Manish Solanki.",
-    "Role: MERN Stack Developer / Full-Stack Developer.",
+    "Portfolio owner: Kishan Lokhil.",
+    "Role: DevOps Engineer.",
     "Location: Gujarat, India.",
-    "Contact email: solankimanish0045@gmail.com.",
+    "Contact email: lokhilkishan60@gmail.com.",
     "Use the following portfolio facts when answering questions:",
     "Projects:",
     ...topProjects,

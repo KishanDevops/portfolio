@@ -1,4 +1,4 @@
-# Manish Portfolio
+# Kishan Portfolio
 
 Personal portfolio built with Next.js App Router, Tailwind CSS, MongoDB, and a custom admin panel.
 

@@ -6,14 +6,14 @@ import dbConnect from "@/lib/mongodb";
 import { getMailTransporter } from "@/lib/mailer";
 
 const RECEIVER_EMAIL =
-  process.env.CONTACT_RECEIVER_EMAIL || "solankimanish0045@gmail.com";
+  process.env.CONTACT_RECEIVER_EMAIL || "lokhilkishan60@gmail.com";
 const WHATSAPP_NUMBER = process.env.WHATSAPP_NUMBER || "";
 
 function buildWhatsAppUrl(data: ContactInput) {
   if (!WHATSAPP_NUMBER) return "";
 
   const text = [
-    "Hi Manish, I just submitted the contact form on your portfolio.",
+    "Hi Kishan, I just submitted the contact form on your portfolio.",
     `Name: ${data.name}`,
     `Email: ${data.email}`,
     `Subject: ${data.subject}`,

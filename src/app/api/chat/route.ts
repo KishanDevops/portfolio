@@ -23,9 +23,9 @@ let geminiDisabledUntil = 0;
 
 function buildPrompt(message: string) {
   return [
-    "You are a helpful AI chatbot for Manish Solanki's portfolio website.",
+    "You are a helpful AI chatbot for Kishan Lokhil's portfolio website.",
     "Only answer using the portfolio context below.",
-    "If the user asks something not in the context, politely say you only know portfolio-related information and suggest contacting Manish.",
+    "If the user asks something not in the context, politely say you only know portfolio-related information and suggest contacting Kishan.",
     "Keep answers short, friendly, and clear.",
     "",
     getPortfolioContext(),
@@ -38,11 +38,11 @@ function buildLocalReply(message: string) {
   const normalized = message.toLowerCase();
 
   if (isGreetingOnly(normalized)) {
-    return "Hi! Ask me about Manish's skills, projects, experience, industries, or contact details.";
+    return "Hi! Ask me about Kishan's skills, projects, experience, industries, or contact details.";
   }
 
   if (!isPortfolioQuestion(normalized)) {
-    return "I can only help with Manish's portfolio topics like skills, projects, experience, industries, and contact details.";
+    return "I can only help with Kishan's portfolio topics like skills, projects, experience, industries, and contact details.";
   }
 
   if (
@@ -83,11 +83,11 @@ function buildLocalReply(message: string) {
     normalized.includes("email") ||
     normalized.includes("whatsapp")
   ) {
-    return "You can contact Manish at solankimanish0045@gmail.com. The portfolio contact form also saves messages to MongoDB and can open WhatsApp with a pre-filled message.";
+    return "You can contact Kishan at lokhilkishan60@gmail.com. The portfolio contact form also saves messages to MongoDB and can open WhatsApp with a pre-filled message.";
   }
 
   if (normalized.includes("about") || normalized.includes("who are you")) {
-    return "Manish Solanki is a MERN Stack Developer from Gujarat, India, focused on React, Next.js, Node.js, MongoDB, and full-stack web apps.";
+    return "Kishan Lokhil is a DevOps Engineer from Gujarat, India, focused on Docker, Kubernetes, CI/CD pipelines, cloud infrastructure, and automation.";
   }
 
   const topFaq = faqs[0];

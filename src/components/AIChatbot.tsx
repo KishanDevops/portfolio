@@ -34,9 +34,9 @@ const starterSuggestions = [
   "How can I contact you?",
 ];
 
-const STORAGE_KEY = "manish-portfolio-chat-session-id";
-const STORAGE_NAME_KEY = "manish-portfolio-visitor-name";
-const STORAGE_EMAIL_KEY = "manish-portfolio-visitor-email";
+const STORAGE_KEY = "kishan-portfolio-chat-session-id";
+const STORAGE_NAME_KEY = "kishan-portfolio-visitor-name";
+const STORAGE_EMAIL_KEY = "kishan-portfolio-visitor-email";
 
 function createSessionId() {
   if (typeof crypto !== "undefined" && "randomUUID" in crypto) {
@@ -58,7 +58,7 @@ export default function AIChatbot() {
     {
       role: "assistant",
       content:
-        "Hi, I’m Manish’s portfolio assistant. Ask me about skills, projects, experience, or contact details.",
+        "Hi, I’m Kishan’s portfolio assistant. Ask me about skills, projects, experience, or contact details.",
     },
   ]);
   const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -95,7 +95,7 @@ export default function AIChatbot() {
           {
             role: "assistant",
             content:
-              "Hi, I’m Manish’s portfolio assistant. Ask me about skills, projects, experience, or contact details.",
+              "Hi, I’m Kishan’s portfolio assistant. Ask me about skills, projects, experience, or contact details.",
           },
           ...data.messages,
         ]);
