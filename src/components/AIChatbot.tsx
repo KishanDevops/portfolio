@@ -172,23 +172,9 @@ export default function AIChatbot() {
   };
 
   return (
-    <>
-      <button
-        type="button"
-        onClick={() => setOpen((value) => !value)}
-        className="fixed bottom-20 right-6 z-50 inline-flex items-center gap-2 rounded-full bg-black px-4 py-3 text-sm font-semibold text-white shadow-2xl shadow-black/20 transition hover:scale-105 dark:bg-white dark:text-black"
-        aria-label="Open AI chatbot"
-      >
-        {open ? (
-          <X className="h-4 w-4" />
-        ) : (
-          <MessageSquare className="h-4 w-4" />
-        )}
-        {open ? "Close Chat" : "Ask AI"}
-      </button>
-
+    <div className="fixed bottom-20 right-4 z-50 flex flex-col items-end gap-2">
       {open && (
-        <div className="fixed bottom-20 right-6 z-50 w-[min(92vw,22rem)] overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-2xl shadow-black/10 dark:border-gray-800 dark:bg-neutral-950">
+        <div className="w-[min(92vw,22rem)] max-h-[70vh] overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-2xl shadow-black/10 dark:border-gray-800 dark:bg-neutral-950 flex flex-col">
           <div className="flex items-center justify-between border-b border-gray-200 px-4 py-3 dark:border-gray-800">
             <div className="flex items-center gap-2">
               <div className="flex h-9 w-9 items-center justify-center rounded-full bg-black text-white dark:bg-white dark:text-black">
@@ -248,7 +234,7 @@ export default function AIChatbot() {
             </div>
           )}
 
-          <div className="max-h-112 space-y-4 overflow-y-auto px-4 py-4">
+          <div className="flex-1 space-y-4 overflow-y-auto px-4 py-4">
             {messages.map((message, index) => (
               <div
                 key={`${message.role}-${index}`}
@@ -316,6 +302,20 @@ export default function AIChatbot() {
           </div>
         </div>
       )}
-    </>
+
+      <button
+        type="button"
+        onClick={() => setOpen((value) => !value)}
+        className="inline-flex items-center gap-2 rounded-full bg-black px-4 py-3 text-sm font-semibold text-white shadow-2xl shadow-black/20 transition hover:scale-105 dark:bg-white dark:text-black"
+        aria-label="Open AI chatbot"
+      >
+        {open ? (
+          <X className="h-4 w-4" />
+        ) : (
+          <MessageSquare className="h-4 w-4" />
+        )}
+        {open ? "Close Chat" : "Ask AI"}
+      </button>
+    </div>
   );
 }

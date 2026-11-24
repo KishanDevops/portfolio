@@ -12,7 +12,7 @@ const nunito = Nunito({
 
 export const metadata: Metadata = {
   title: "Contact Me | Kishan Lokhil – DevOps Engineer",
-  metadataBase: new URL("https://lokhilkishan.dev/"),
+  metadataBase: new URL("https://kishanlokhil.vercel.app/"),
   description:
     "Contact Kishan Lokhil, DevOps Engineer from India, for cloud infrastructure, CI/CD automation, and DevOps consulting projects.",
   icons: {
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: "Contact Me | Kishan Lokhil – DevOps Engineer",
     description:
       "Get in touch for DevOps, cloud infrastructure, CI/CD pipelines, and automation projects.",
-    url: "https://lokhilkishan.dev/",
+    url: "https://kishanlokhil.vercel.app/",
     siteName: "Kishan Lokhil DevOps Portfolio",
     images: [
       {
