@@ -26,14 +26,14 @@ export async function sendAutoReply(to: string, name: string) {
   if (!transporter) return;
 
   await transporter.sendMail({
-    from: `"Manish Solanki" <${process.env.SMTP_FROM}>`,
+    from: `"Kishan Lokhil" <${process.env.SMTP_FROM}>`,
     to,
     subject: "Thanks for reaching out!",
     html: `
       <h2>Hi ${name},</h2>
       <p>Thanks for contacting me! I've received your message and will get back to you shortly.</p>
       <br/>
-      <p>Best regards,<br/>Manish Solanki</p>
+      <p>Best regards,<br/>Kishan Lokhil</p>
     `,
   });
 }
